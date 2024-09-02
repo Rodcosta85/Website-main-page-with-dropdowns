@@ -1,0 +1,125 @@
+#main-col-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 158px;
+    height: 160px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    top: 65px;
+    left: 113px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#main-col-one p:hover {
+    color: var(--cool-purple);
+    cursor: pointer;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+#todo-div {
+    width: 93px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 5px 16px 0;
+}
+
+#todo-main {
+  width: 14px;
+  height: 16px;
+  margin: 0;
+}
+
+#todo-div p {
+    width: 63px;
+    height: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--medium-gray);
+    margin: 0;
+}
+
+#calendar-div {
+    width: 93px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 5px 16px 0;
+}
+
+#calendar-main {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+
+#calendar-div p {
+    width: 63px;
+    height: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--medium-gray);
+    margin: 0;
+}
+
+#reminders-div {
+    width: 102.59px;
+    height: 16.08px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 5px 16px 15px;
+}
+
+#reminders-main {
+    width: 12px;
+    height: 16px;
+    margin: 0;
+}
+
+#reminders-div p {
+    width: 75px;
+    height: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--medium-gray);
+    margin: 0;
+}
+
+#planning-div {
+    width: 89px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 7px 0 0;
+}
+
+#planning-main {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+
+#planning-div p {
+    width: 59px;
+    height: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--medium-gray);
+    margin: 0;
+}

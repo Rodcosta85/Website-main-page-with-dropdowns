@@ -1,0 +1,282 @@
+:root {
+  --almost-black: hsl(0, 0%, 8%);
+  --almost-white: hsl(0, 0%, 98%);
+  --medium-gray: hsl(0, 0%, 41%);
+  --cool-purple: #8e4cb6;
+}
+
+* {
+  font-family: "Epilogue", sans-serif;
+}
+
+@media (min-width: 375px) {
+  body {
+    width: 1440px;
+    height: 900px;
+    margin: 0;
+    background-color: var(--almost-white);
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #nav {
+    width: 1440px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #snap {
+    width: 87px;
+    height: 35px;
+    margin: 25px 0 0 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #some-info {
+    width: 540px;
+    height: 400px;
+    position: absolute;
+    top: 234px;
+    left: 165px;
+  }
+
+  #some-info h1 {
+    width: 540px;
+    height: 161px;
+    font-size: 80px;
+    color: var(--almost-black);
+    margin: 0 0 40px 0;
+  }
+
+  #some-info p {
+    width: 445px;
+    height: 84px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.3;
+    color: var(--medium-gray);
+    margin: 0 0 40px 0;
+  }
+
+  #some-info button {
+    width: 163px;
+    height: 56px;
+    background-color: var(--almost-black);
+    color: var(--almost-white);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 1.5px solid var(--almost-black);
+    margin: 0;
+  }
+
+  #some-info button:hover {
+    cursor: pointer;
+    background-color: var(--almost-white);
+    color: var(--almost-black);
+    border: 1.5px solid var(--almost-black);
+    transition-duration: 0.3s;
+  }
+
+  #clients {
+    width: 477.63px;
+    height: 35.9px;
+    position: absolute;
+    top: 742px;
+    left: 165.38px;
+  }
+
+  #databiz {
+    width: 113.14px;
+    height: 20px;
+    margin: 0 40px 0 0;
+  }
+
+  #audiophile {
+    width: 73px;
+    height: 35.9px;
+    margin: 0 40px 0 0;
+  }
+
+  #meet {
+    width: 89.31px;
+    height: 20px;
+    margin: 0 40px 0 0;
+  }
+
+  #maker {
+    width: 82.01px;
+    height: 24px;
+    margin: 0;
+  }
+
+  #hero {
+    position: absolute;
+    top: 130px;
+    left: 830px;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  #desktop {
+    width: 480px;
+    height: 640px;
+  }
+
+
+}
+
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+    height: 780px;
+    margin: 0;
+  }
+  
+  #nav {
+    width: 343px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    box-sizing: border-box;
+  }
+  
+  #snap {
+    width: 87px;
+    height: 35px;
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  #menu {
+    width: 32px;
+    height: 18px;
+    background-color: var(--almost-white);
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #hamb-menu {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #hero {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    margin: 0;
+  }
+
+  #mobile {
+    width: 375px;
+    height: 281.25px;
+  }
+
+  #desktop {
+    display: none;
+  }
+  
+  #some-info {
+    width: 343px;
+    height: 208px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 404px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #some-info h1 {
+    margin: 0 0 20px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--almost-black);
+    line-height: 42px;
+    letter-spacing: -0.5px;
+  }
+  
+  #some-info p {
+    margin: 0 0 20px 0;
+    width: 343px;
+    height: 78px;
+    font-size: 16px;
+    color: var(--medium-gray);
+    line-height: 26px;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+  }
+  
+  #some-info button {
+    width: 136px;
+    height: 48px;
+    border-radius: 15px;
+    background-color: var(--almost-black);
+    color: var(--almost-white);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #clients {
+    position: absolute;
+    top: 660px;
+    left: 16px;
+    width: 343px;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #databiz {
+    width: 81.25px;
+    height: 14.36px;
+    margin: 0 29px 0 0;
+    padding: 0;
+  }
+  
+  #audiophile {
+    width: 52.87px;
+    height: 26px;
+    margin: 0 29px 0 0;
+    padding: 0;
+  }
+  
+  #meet {
+    width: 64.14px;
+    height: 14.36px;
+    margin: 0 29px 0 0;
+    padding: 0;
+  }
+  
+  #maker {
+    width: 58.9px;
+    height: 17.23px;
+    margin: 0;
+    padding: 0;
+  }
+  
+}
+
+
+

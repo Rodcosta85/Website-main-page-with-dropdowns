@@ -1,0 +1,18 @@
+#col-two {
+    width: 80px;
+    height: 110px;
+    margin: 20px 0 20px 18px;
+}
+
+#col-two > a {
+    width: 57px;
+    height: 26px;
+    text-decoration: none;
+}
+
+#col-two > a > p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--medium-gray);
+    margin: 0 0 25px 0;
+}
